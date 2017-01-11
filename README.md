@@ -1,1 +1,9 @@
 # software-security
+
+In order to overcome the various vulnerable attacks to the banking system, security of the banking system is vital. Our project involves two kinds of users such as Internal Users and external users. System administrator, Bank Managers and Bank employees are categorized under internal users. Other users such as customers, merchants or organizations are categorized under External Users. Our project involved interactions between the above-mentioned users in secure and flawless manner. By implementing the online banking, it helped the various users of our bank to do the transactions in short period of time, avoiding the long queues in front of bank. This helps our users to save time and can utilize for other important works.
+Front End layer: This layer is responsible for user interface of our banking system. It helps the user to interact with the backend using middleware. The front end is implemented using JavaScript, Ajax, bootstrap, HTML and CSS. These technologies assist in developing interactive user interface. Which attracts customers and provide much security than traditional technologies.
+Middleware: This layer is responsible for connecting front end to the backend. Any interaction triggered from the front is queried to the backend via middleware. Middleware was implemented using jsp.
+Backend: This layer acts as data storehouse. Any query from the front end queried via middleware was processed and result was given back to the frontend via middleware. This layer is restricted to specific users to edit or modify the content.
+Flawless communication between these three layers is maintained and care taken to prevent the vulnerable attacks.
+Any vulnerability reported at this point was handled carefully in order to prevent the system failure.
+Various vulnerabilities handled like XSS attacks, man in the middle attack, SQL Injection session management, password attack, clickjacking etc.
